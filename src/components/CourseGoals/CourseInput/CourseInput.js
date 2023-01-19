@@ -32,7 +32,10 @@ const CourseInput = (props) => {
           onChange={goalInputChangeHandler}
         />
       </div>
+      <div className={`form-control ${!isValid ? "inValid" : ""}`}>
+
       <Button type="submit">Add Goal</Button>
+      </div>
     </form>
   );
 };

@@ -31,3 +31,9 @@
 .form-control.inValid label{
   color: red;
 }
+
+.form-control.inValid button{
+  color: hsla(0, 79%, 69%, 0.959);
+  background-color: rgba(250, 162, 162, 0.486);
+  
+}
